@@ -1,0 +1,13 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "description": "Static portfolio with local development server setup",
+  "private": true,
+  "scripts": {
+    "start": "live-server --open=./index.html --port=3000 --watch=./",
+    "serve": "npm run start"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
